@@ -1,5 +1,5 @@
 module "sandbox_account_01" {
-  source = "./modules/aft-account-request-framework"
+  source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "aakarnati+sandbox01@gmail.com"
